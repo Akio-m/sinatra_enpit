@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 post '/hello' do
-  @message = params[:massage]
+  @message = params[:message]
   erb :hello
 end
