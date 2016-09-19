@@ -9,9 +9,15 @@ get '/' do
   </head>
 
   <body>
-    <h1>Hell World!</h1><br>
+    <h1>Hello World!</h1><br>
     fire!!<br>
   </body>
 </html>
 EOS
+end
+
+get '/hello/:name' do
+  # matches "GET /hello/foo" and "GET /hello/bar"
+  # params['name'] is 'foo' or 'bar'
+  "Hello #{params['name']}!"
 end
