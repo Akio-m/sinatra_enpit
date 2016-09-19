@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>挨拶</title>
+  </head>
+  
+  <body>
+    <p>こんにちは、<%= message %>さん。</p>
+  </body>
+</html>

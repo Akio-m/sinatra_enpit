@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>practice</title>
+  </head>
+
+  <body>
+    <h1>こんにちは</h1><br>
+    お名前はなんですか？
+    <div>
+      <textarea name="message" rows="1"></textarea>
+    </div>
+    <div>
+      <input type="submit" value="送信する">
+    </div>
+  </body>
+</html>
